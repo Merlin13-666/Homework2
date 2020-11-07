@@ -8,6 +8,7 @@
 
 using namespace std;
 const int MAX = 1000; // MAX - Максимальное количество символов для шифрования
+//Функция для вывода char
 void Print(char *l, int b) {
     for (int i = 0; i < b; i++)
         cout << l[i];
@@ -15,7 +16,7 @@ void Print(char *l, int b) {
 
 
 using namespace std;
-
+// Функция для шифрования данных
 void shifrovanie(char *first, char *late, int a, int b) {
     srand(b);   // Инициализация секретного ключа
     unsigned short Gamma;   // Гамма
